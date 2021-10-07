@@ -5,7 +5,7 @@ document.querySelector('button').addEventListener('click', searchButton)
 
 function searchButton(){
     let city = document.querySelector('input').value
-    const url = `http://api.weatherapi.com/v1/current.json?key=7cefcbd3fb7f4eeb90312835210710&q=${city}`
+    const url = `https://api.weatherapi.com/v1/current.json?key=7cefcbd3fb7f4eeb90312835210710&q=${city}`
 
     fetch(url)
         .then(res => res.json())
