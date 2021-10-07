@@ -14,3 +14,4 @@ Worked on the weather API and had city, and country come up when searched. The i
 Requested a new key for API. Also edited API url. This fixed the issues with the incorrect location when searching. API is working and search can be used for locations worldwide. Also added CSS.
 
 <a href="https://weather-api-daphnyemily.netlify.app/">DEMO LINK</a>
+<img src="https://github.com/daphnyemily/weather-api-bootcamp/blob/answer/weatherAPI.png">
