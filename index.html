@@ -4,11 +4,13 @@
     	<meta charset="utf-8">
     	<meta name="description" content="This is where your description goes">
     	<meta name="keywords" content="one, two, three">
-
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
 		<title>Weather App</title>
 
 		<!-- external CSS link -->
-		<link rel="stylesheet" href="css/normalize.css">
+		<!-- <link rel="stylesheet" href="css/normalize.css"> -->
 		<link rel="stylesheet" href="css/style.css">
 		<!-- <link rel="stylesheet" href="css/reset.css"> -->
 
@@ -18,13 +20,17 @@
 		<h1>Today's Forecast</h1>
 
 		<div class="input">
-		<input type="text" name="" placeholder="Enter Zipcode" value="">
+		<input type="text" name="" placeholder="Enter City Name or Zipcode" value="">
 		<button type="button" name="button">Search</button>
 		</div>
 
-		<!-- <h2>City</h2>
-		<h3>Country</h3> -->
-		<h2 id="tempF"></h2>
+		<section id="text" >
+			<h1 id="tempF"><span>°F</span></h1>
+			<h2 id="city">City</h2>
+			<h2 id="state">State</h2>
+			<h3>Country</h3>
+		</section>
+
 
 		<script type="text/javascript" src="js/main.js"></script>
 	</body>

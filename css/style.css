@@ -1,24 +1,108 @@
 /******************************************
-/* CSS
+/* SETUP
 /*******************************************/
 
 /* Box Model Hack */
 *{
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-  
-}
-
-/******************************************
-/* LAYOUT
-/*******************************************/
-input{
-  text-align: center;
-}
-
-
-
-/******************************************
-/* ADDITIONAL STYLES
-/*******************************************/
+     box-sizing: border-box;
+     /* background: white; */
+   }
+   
+   /* Clear fix hack */
+   .clearfix:after {
+        content: ".";
+        display: block;
+        clear: both;
+        visibility: hidden;
+        line-height: 0;
+        height: 0;
+   }
+   
+   .clear {
+        clear: both;
+   }
+   
+   .alignright {
+        float: right;
+        padding: 0 0 10px 10px; /* note the padding around a right floated image */
+   }
+   
+   .alignleft {
+        float: left;
+        padding: 0 10px 10px 0; /* note the padding around a left floated image */
+   }
+   
+   /*.bodyCont {
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        max-width: 1350;
+   }*/
+   
+   /******************************************
+   /* BASE STYLES
+   /*******************************************/
+   
+   body {
+        color: white;
+        font-size: 12px;
+        line-height: 1.4;
+        font-family: Helvetica, Arial, sans-serif;
+        font-family: 'Indie Flower', cursive;
+        text-align: center;
+        background-image: url(cloudImg.jpeg);
+   }
+   
+   
+   /******************************************
+   /* LAYOUT
+   /*******************************************/
+   input{
+        width: 13em;
+        height: 2em;
+        margin-bottom: 2em;
+        border: none;
+        border-radius: 6px;
+   }
+   h1{
+        font-size: 6em;
+        font-weight: bold;
+        -webkit-text-stroke: 1px rgb(64, 105, 161);
+        -webkit-text-fill-color: white;
+   }
+   h2,h3{
+        font-size: 3em;
+        font-weight: bold;
+        color: white;
+        background:  rgb(64, 105, 161);
+        margin: 8px;
+   }
+   button{
+        color: rgb(64, 105, 161);
+        background: white;
+        border: none;
+        height: 2em;
+        width: 7em;
+        border-radius: 6px;
+   }
+   #text{
+     height: 20em;
+     width: 20em;
+     display: inline-grid;
+   }
+   #tempF{
+        background: white;
+        border-radius: 25px;
+        margin: 2px;
+   }
+   
+   
+   
+   
+   
+   
+   /******************************************
+   /* ADDITIONAL STYLES
+   /*******************************************/
+   
